@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    background-color: #fcdb00;
+    padding: 60px 0 103px;
+}
+.header .navbar-brand{
+    padding: 0;
+}
+.header .navbar-default{
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 60px;
+}
+.header .navbar-default .navbar-nav a{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.header .inspire h2{
+    padding-top: 65px;
+}
+
+.header .inspire p{
+
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+   
+
+}
+.header .header-list li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.header .header-list li a{
+    font-size: 42px;
+    color: #010101;
+}
+
+.header .ipad-img{
+    margin-left: 25%
+}
+
+
+/* ................................header end.................................... */
+
+
+.features-section{
+    padding: 115px 0 75px;
+}
+
+.features-section .features-info {
+    margin-bottom: 90px;
+}
+
+.features-section .features-info h2{
+    margin-bottom: 15px;
+}
+
+.features-section .features-thumbnail{
+    margin-bottom: 90px;
+}
+.features-section .features-thumbnail i{
+    font-size: 50px;
+    color: #010101;
+}
+.features-section .thumbnail-info h3{
+    font-size: 22px;
+    color: #010101;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.features-section .thumbnail-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+
+
+/* .......................................features section end................................ */
+
+.footer{
+    padding: 95px 0 135px;
+    background-color: #010101;
+}
+.footer .fto-heading h2{
+    color: #fcdb00;
+}
+.footer .fto-heading h3{
+    color: #898989;
+}
+.footer .contact-email{
+    padding-left: 25px;
+    height: 50px;
+    width: calc(100% - 160px);
+    outline: none;
+    border-radius: 5px;
+}
+.footer .submit-btn{
+    height: 50px;
+    width: 125px;
+    background-color: #fcdb00;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #010101;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer .contact-email::placeholder{
+    font-size: 16px;
+    color: #898989;
+}
+.footer .footer-icon{
+    margin-bottom: 130px;
+}
+.footer .footer-icon li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.footer .footer-icon a i {
+    color: #fcdb00;
+    font-size: 42px;
+    padding-top: 20px;
+}
+.footer .footer-list li{
+    color: white;
+}
+
+.footer .footer-list a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
