@@ -140,3 +140,54 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+@media all and (max-width : 768px){
+    .header .navbar-default .navbar-toggle{
+        background-color: transparent;
+        border: none;
+    }
+    .header .navbar-default .navbar-collapse{
+        border: none;
+    }
+    .header .navbar-default{
+        margin-bottom: 20px;
+    }
+    .header .inspire h2{
+        padding: 0;
+    }
+    .header .ipad-img{
+        margin: 10% 0 0;
+    }
+    .header .ipad-img img{
+        margin:  0 auto;
+    }
+    .features-section{
+        padding: 40px 0 0;
+    }
+    .features-section .features-thumbnail{
+        margin-bottom: 40px;
+    }
+    .footer{
+        padding: 40px 0;
+    }
+    .footer .form-group{
+        margin-bottom: 20px;
+    }
+    .footer .footer-icon{
+        margin-bottom: 50px;
+    }
+    .footer .footer-list{
+        text-align: center;
+    }
+}
+
+
+@media (min-width : 768px) and (max-width: 992px){
+    .features-section{
+        padding: 50px 0;
+    }
+    .footer .footer-list{
+        text-align: center;
+    }
+}
+
